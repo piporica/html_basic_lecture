@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <script src = "./js/JS_clock.js"></script>
+    <style>
+
+        #clock{
+            background-color: aqua;
+            color: deeppink;
+            font-size: 50pt;
+            height: 150px;
+        }
+        #clockButton{
+            height : 60px;
+            width : 300px;
+            font-size: 20pt;
+            font-style: italic;
+            font-weight: bold;
+            background-color: aquamarine;
+            box-shadow: none;
+            outline: none;
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>시계를 만들자!</h1>
+    <div id = "clock"> 시계 </div>
+    <input type="button" id = "clockButton" value="시계시작" onclick="start_clock()" >
+</body>
+</html>

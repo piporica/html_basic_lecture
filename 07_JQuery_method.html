@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src = "js/07_JQuery_method.js"></script>
+
+    <style>
+        .myStyle {
+            background-color: aquamarine;
+            color: deeppink;
+            font-size: 30pt;
+        }
+        .divStyle {
+            width: 300px;
+            height: 200px;
+            background-color: chartreuse;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>이름1</li>
+        <li>이름2</li>
+        <li>이름3</li>
+        <li>이름4</li>
+    </ul>
+
+    <div id = "myDiv" ></div>
+    <input type = "button" value="글자넣기" onclick="insert_text()">
+
+    <div id = "delDiv" class="divStyle">
+        <h1>1단제목!!!!!</h1>
+        <h2>2단제목!!!!!</h2>
+    </div>
+    <input type = "button" value="div삭제" onclick="delDiv()">
+    <input type = "button" value="목록추가" onclick="addList()">
+</body>
+</html>
